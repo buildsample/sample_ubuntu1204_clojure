@@ -6,6 +6,7 @@ lein:
 
 build_image: shippableimages/ubuntu1204_clojure:0.0.2
 
+
 # Create directories for test and coverage reports
 before_script:
   - mkdir -p shippable/testresults
